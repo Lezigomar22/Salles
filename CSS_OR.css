@@ -1,0 +1,75 @@
+/* Réinitialisation des marges et paddings */
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+/* Style général */
+body {
+  font-family: "Roboto", sans-serif; /* Police moderne et lisible */
+  background: linear-gradient(to bottom, #f5f7fa, #d1e8ff); /* Dégradé bleu clair */
+  color: #2d3436; /* Gris foncé pour le texte */
+  line-height: 1.8; /* Espacement agréable */
+  padding: 20px;
+}
+
+/* Titre principal */
+h1 {
+  font-size: 3em;
+  color: #1565c0; /* Bleu intense */
+  margin-bottom: 30px;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Paragraphes */
+p {
+  font-size: 1.2em;
+  color: #34495e; /* Gris foncé */
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+/* Images */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin: 20px auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Liens */
+a {
+  color: #1e88e5; /* Bleu vif */
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 10px;
+  transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #42a5f5; /* Variation plus claire */
+}
+
+/* Sous-titres */
+h3 {
+  font-size: 1.8em;
+  color: #1976d2; /* Bleu clair */
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* Conteneur de contenu principal */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #ffffff; /* Fond blanc pour lisibilité */
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
