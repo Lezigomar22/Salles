@@ -1,17 +1,73 @@
-/* Ajout pour les sections */
+/* Réinitialisation des marges et paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Style général */
+body {
+  font-family: "Roboto", sans-serif;
+  background: linear-gradient(to bottom, #f5f7fa, #c3cfe2);
+  color: #2d3436;
+  line-height: 1.8;
+  padding: 20px;
+}
+
+/* Titres principaux */
+h1 {
+  font-size: 3em;
+  color: #1e3799;
+  margin-bottom: 30px;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  font-size: 2.2em;
+  color: #6a89cc;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+/* Paragraphes */
+p {
+  font-size: 1.2em;
+  color: #34495e;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+/* Liens */
+a {
+  color: #3867d6;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #4b7bec;
+}
+
+/* Sections */
 section {
   margin-bottom: 30px;
   padding: 20px;
   background: #ffffff;
   border-radius: 10px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
-/* Table */
+/* Tables */
 table {
   width: 100%;
   border-collapse: collapse;
   margin-top: 20px;
+  background: #ffffff;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 th, td {
@@ -23,15 +79,44 @@ th, td {
 caption {
   font-size: 1.5em;
   font-weight: bold;
+  color: #2d3436;
   margin-bottom: 10px;
 }
 
-/* ID spécifiques */
-#porte {
-  width: 100%;
+/* Formulaire */
+form {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  margin: 30px auto;
+  width: 80%;
+  max-width: 600px;
 }
 
-#bt {
+label {
+  display: block;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  color: #2d3436;
+}
+
+input[type="number"], select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #bdc3c7;
+  border-radius: 5px;
+  font-size: 1em;
+  transition: border-color 0.3s ease;
+}
+
+input[type="number"]:focus, select:focus {
+  border-color: #3867d6;
+  outline: none;
+}
+
+input[type="button"] {
   background: #3867d6;
   color: #fff;
   padding: 12px 25px;
@@ -42,13 +127,23 @@ caption {
   transition: background 0.3s ease;
 }
 
-#bt:hover {
+input[type="button"]:hover {
   background: #4b7bec;
 }
 
+/* Résultat */
 #resultat {
   font-size: 1.5em;
   margin-top: 20px;
   color: #27ae60;
   font-weight: bold;
+}
+
+/* Images (si utilisées) */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
