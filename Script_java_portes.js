@@ -15,6 +15,8 @@ document.getElementById("resultat").innerHTML=resultat;
     {calculNOR();}
     if(porte.value=='XOR' )
     {calculXOR();}
+    if(porte.value=='XOR' )
+    {calculXOR();}
 }
 
 function calculAND ()
