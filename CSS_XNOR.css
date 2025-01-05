@@ -40,7 +40,7 @@ em {
 /* Images */
 img {
   display: block;
-  max-width: 50%;
+  width: 300px;
   height: auto;
   border-radius: 10px;
   margin: 20px auto;
