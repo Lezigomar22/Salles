@@ -121,3 +121,23 @@ function calculXOR ()
     }
     document.getElementById("resultat").innerHTML=resultat;
 }
+function calculXNOR ()
+{
+    if (binaire_1.value==0)
+    {if (binaire_2.value==0)
+        {resultat=1}
+    }
+    if (binaire_1.value==1)
+    {if (binaire_2.value==0)
+        {resultat=0}
+    }
+    if (binaire_1.value==0)
+    {if (binaire_2.value==1)
+        {resultat=0}
+    }
+    if (binaire_1.value==1)
+    {if (binaire_2.value==1)
+        {resultat=1}
+    }
+    document.getElementById("resultat").innerHTML=resultat;
+}
