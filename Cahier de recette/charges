@@ -1,0 +1,37 @@
+"""
+Cahiers charges :
+
+Le site web doit respecter les critères suivants :
+il est mis en ligne et doit être statique, avec une structure en HTML et une mise en page en CSS. Tous les liens, y compris le lien vers un site extérieur, doivent être fonctionnels. 
+Chaque porte logique doit être accompagnée d'une image explicative libre d'accès et d'une explication claire et précise sur les sorties binaires en fonction des entrées binaires.
+Une vidéo doit être intégrée au site. Une calculatrice dédiée aux portes logiques, réalisée en JavaScript, doit être fonctionnelle et configurée pour chaque type de porte.
+Un lien permettant de retourner à la page d’accueil doit être accessible depuis chaque page. Tous les liens internes vers les pages des portes logiques doivent être opérationnels.
+Le site doit avoir une mise en page soignée, être lisible, et respecter une bonne grammaire, tant dans le contenu que dans le code.
+Les pages doivent être correctement liées entre elles à l’aide de balises appropriées. Le projet doit inclure un cahier des charges et un cahier de recette.
+
+Tests: 
+
+--> Le site est mis en ligne
+--> Le site contient un lien vers un site extérieur
+-->La mise en page du site est en CSS
+-->La forme du site est en HTML
+-->Chaque portes logique possèdent un image explicative
+-->Le lien vers le site extérieur fonctionne
+-->Le site possède  une vidéo
+-->Chaque porte logiques sont expliqués
+-->Les explications de chaque porte sont claires et précises 
+-->A partir de chaque page, un lien pour retourner sur la page d’accueil est fonctionnel
+-->Le code java script permet de mettre une calculatrice pour les portes logiques
+-->La calculatrice est configuré pour chaque porte logiques
+-->Les images explicatives sont libres d’accès
+-->Le site est doté d’une bonne mise en page
+-->La grammaire du code et du site et bonne
+-->Le site explique les sorties binaires en fonction des entrées binaires
+-->Tous les liens pour aller sur les explications des porte logiques fonctionnent
+-->Le site doit être statique
+-->Le site doit être lisible
+-->Les pages doivent êtres liées par des balises
+-->Le projet doit posséder un cahier des charges
+-->Le projet doit posséder un cahier de recette
+
+"""
